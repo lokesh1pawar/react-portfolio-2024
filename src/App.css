@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Custom-1";
+    src: url("../public/font/Poppins-Regular.ttf");
+  }
+
+@font-face {
+    font-family: "Custom-2";
+    src: url("../public/font/Montserrat-VariableFont_wght.ttf");
+  }
+
+
+@layer components {
+    body {
+      @apply text-customColor;
+      /* @apply font-customFont; */
+    }
+    .custom-background {
+        @apply bg-darkGray;
+        @apply navFontColor;
+        @apply navHoverUl;
+        @apply redForHoverNav;
+      }
+  }

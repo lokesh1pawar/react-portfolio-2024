@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #212428;
+}
+
+.mt-200 {
+  margin-top: 198px;
+}
+.font-14{
+  font-size: 14px;
+}
+.let-space{
+  letter-spacing: 3px;
+}
+
+.let-space-social{
+  letter-spacing: 2px;
+}
+
+.let-space-features{
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.margin-left-70{
+margin-left: 70px;
+}
+
+
+.img-box{
+box-shadow: rgba(0, 0, 0, 0.56) 
+0px 22px 70px 4px; 
+}
+
+.img-height-home{
+  height: 30rem;
+}
+
+.divider-saprate{
+  width: 90%;
+  height: 1px;
+  background: rgb(0, 0, 0);
+  margin: 65px;
+}
