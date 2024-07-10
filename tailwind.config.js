@@ -16,6 +16,10 @@ module.exports = {
         redForHoverNav: '#FF004F',
         redForName: '#ff014f',
         redFeature: '#f9004d',
+        inputBg: '#191b1e',
+        inputtxt: '#a0a8b3',
+        submitBtn: '#23272b',
+        
       },
       fontFamily: {
         custom1: ["Custom-1", "sans-serif"],

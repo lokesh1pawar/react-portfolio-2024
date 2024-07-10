@@ -1,0 +1,73 @@
+<div className="w-24 h-24 bg-blue-500 rounded-full flex justify-center items-center">
+---------------------------------------------
+
+ {/* Clients Section  */}
+    {/* <div id="clients" className="min-h-screen flex items-center justify-center bg-gray-600">
+      <h1 className="text-4xl font-bold">Clients Section</h1>
+    </div> */}
+
+---------------------------------------------
+
+ {/* <ScrollLink to="home" smooth={true} duration={500}>
+            Gaurav
+          </ScrollLink> */}
+---------------------------------------------
+Footer code -->
+
+ <div className='pb-[80px] flex'>
+    
+    <div> {/* First Section */}
+    <img
+        className="h-16 ml-28 mb-10"  
+        src="logo.png" 
+        alt="Logo"
+          />
+           <div className='flex space-x-7 ml-28 mt-6 w-44'>
+                  <div className='img-box-white  hover:text-slate-400 hover:shadow-lg hover:-translate-y-2 ease-in-out transform transition duration-500'>
+                  <a href="https://www.linkedin.com/in/gourav-singh-bais/" target="_blank" rel="noopener noreferrer">
+                            <FiLinkedin className="text-5xl text-navFontColor border border-navFontColor box-full p-2 shadow-md " />
+                    </a>
+                     </div>
+              <div className='img-box-white  hover:text-slate-400 hover:shadow-lg hover:-translate-y-2 ease-in-out transform transition duration-500'>
+
+                 <a className='shadow-lg' href="https://twitter.com/GouravSinghBail/" target="_blank" rel="noopener noreferrer">
+                    <FaXTwitter className="text-5xl text-navFontColor border border-navFontColor box-full p-2 shadow-md" />
+                     </a>
+                     </div>
+
+                  <div className='img-box-white  hover:text-slate-400 hover:shadow-lg hover:-translate-y-2 ease-in-out transform transition duration-500'>
+
+                     <a href="https://medium.com/@gouravbais08/" target="_blank" rel="noopener noreferrer">
+                     <FaMedium className="text-5xl text-navFontColor border border-navFontColor box-full p-2 shadow-md" />
+                     </a>
+                   </div>
+                </div>
+    </div>
+    
+    <div> {/* Second Section */}
+    <h6>QUICK LINK</h6>
+    <ul className="flex flex-col space-y-3 ">
+    <li>
+      <a href="#" className="text-sm hover:text-redForHoverNav text-navFontColor ease-in-out duration-300 text-[17px]">About Me</a>
+    </li>
+    <li>
+      <a href="#" className="text-sm hover:text-redForHoverNav text-navFontColor ease-in-out duration-300 text-[17px]">Services</a>
+    </li>
+    <li>
+      <a href="#" className="text-sm hover:text-redForHoverNav text-navFontColor ease-in-out duration-300 text-[17px]">Portfolio</a>
+    </li>
+    <li>
+      <a href="#" className="text-sm hover:text-redForHoverNav text-navFontColor ease-in-out duration-300 text-[17px]">Contact</a>
+    </li>
+  </ul>
+    </div>
+    
+    <div> {/* Third Section */}
+
+    </div>
+    
+    <div> {/* Fourth Section */}
+
+    </div>
+    </div>
+
