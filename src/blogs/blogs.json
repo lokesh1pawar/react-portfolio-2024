@@ -3,7 +3,7 @@
       "id": "example",
       "title": "Example Blog Post",
       "description": "This is an example blog post.",
-      "image": "/path/to/image.jpg",
+      "image": "../blog_img/marketing-young-cute-business-lady-striped-shirt-office-showing-raising-results-1-340x250.jpg",
       "fileName": "example.md",
       "pin": true
     },
@@ -11,7 +11,7 @@
         "id": "example2",
         "title": "Example Blog Post",
         "description": "This is an example blog post.",
-        "image": "/path/to/image.jpg",
+        "image": "../blog_img/pretty-curly-young-woman-writing-notes-startup-project-340x250.jpg",
         "fileName": "example.md",
         "pin": true
       },
@@ -19,7 +19,7 @@
         "id": "example3",
         "title": "Example Blog Post",
         "description": "This is an example blog post.",
-        "image": "/path/to/image.jpg",
+        "image": "../blog_img/road-sign-direction-perforated-paper-arrow-340x250.jpg",
         "fileName": "example.md",
         "pin": true
       }, {

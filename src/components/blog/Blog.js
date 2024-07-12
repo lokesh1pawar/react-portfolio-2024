@@ -7,11 +7,17 @@ const Blog = () => {
 
   return (
     <div className="container mx-auto p-4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9 img-box-white">
+      <p className='uppercase text-redFeature let-space-features items-center justify-center flex'>VISIT MY BLOG AND KEEP YOUR FEEDBACK
+      </p>
+      <h2 className='items-center justify-center text-navFontColor flex text-4xl font-bold mt-4 mb-6'>My Blog
+      </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9">
               {pinnedBlogs.map(blog => (
                 <BlogCard key={blog.id} blog={blog} />
               ))}
             </div>
+             {/* divider separator line  */}
+             <div className='divider-saprate opacity-90'></div>
           </div>
   );
 };

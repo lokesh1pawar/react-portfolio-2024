@@ -6,7 +6,7 @@ import { FaMedium } from "react-icons/fa6";
 const Contacts = () => {
     return (
         <>
-            <div id="contacts" className="min-h-screen bg-bgMain  text-navFontColor font-custom1 font-custom2 mt-6">
+            <div id="contacts" className="min-h-screen bg-bgMain text-navFontColor font-custom1 font-custom2 mt-6">
                 <p className='uppercase text-redFeature let-space-features items-center justify-center flex mt-20'>Contact</p>
                 <h2 className='items-center justify-center flex mt-20 text-6xl font-bold mt-4'>Contact With Me</h2>
 

@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar';
 import WelcomeHome from './WelcomeHome';
 import Features from './Features';
-import Resume from './Resume';
+import Resume from './resume/Resume';
 import Contacts from './Contacts';
 import Footer from './Footer';
 import BackToTop from './BackToTop';
