@@ -38,7 +38,7 @@ const Navbar = () => {
             <ScrollLink
               to="home"
               smooth={true}
-              duration={150}
+              duration={300}
               activeClass="text-white transition duration-300 ease-in-out"
               className="hover:text-redForHoverNav transition duration-300 ease-in-out"
               spy={true}>
@@ -49,7 +49,7 @@ const Navbar = () => {
             <ScrollLink
               to="features"
               smooth={true}
-              duration={150}
+              duration={300}
               activeClass="text-white transition duration-300 ease-in-out"
               className="hover:text-redForHoverNav transition duration-300 ease-in-out"
               spy={true}>
@@ -59,7 +59,7 @@ const Navbar = () => {
           <li className='text-sm font-custom1 font-custom2'>
             <ScrollLink to="resume"
               smooth={true}
-              duration={150}
+              duration={300}
               activeClass="text-white transition duration-300 ease-in-out"
               className="hover:text-redForHoverNav transition duration-300 ease-in-out"
               spy={true}>
@@ -69,7 +69,7 @@ const Navbar = () => {
           <li className='text-sm font-custom1 font-custom2'>
             <ScrollLink to="testimonial"
               smooth={true}
-              duration={150}
+              duration={300}
               activeClass="text-white transition duration-300 ease-in-out"
               className="hover:text-redForHoverNav transition duration-300 ease-in-out"
               spy={true}>
@@ -86,7 +86,7 @@ const Navbar = () => {
           <li className='text-sm font-custom1 font-custom2'>
             <ScrollLink to="blog"
               smooth={true}
-              duration={150}
+              duration={300}
               activeClass="text-white transition duration-300 ease-in-out"
               className="hover:text-redForHoverNav transition duration-300 ease-in-out"
               spy={true}>
@@ -96,7 +96,7 @@ const Navbar = () => {
           <li className='text-sm font-custom1 font-custom2'>
             <ScrollLink to="contacts"
               smooth={true}
-              duration={150}
+              duration={300}
               activeClass="text-white transition duration-300 ease-in-out"
               className="hover:text-redForHoverNav transition duration-300 ease-in-out"
               spy={true}>

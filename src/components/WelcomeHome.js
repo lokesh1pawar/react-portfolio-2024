@@ -66,7 +66,7 @@ const WelcomeHome = () => {
 
                 {/* Second image box  */}
                 <div className="mt-40">
-                    <img className='img-height-home img-box img-box-white ' src="banner-01.png" alt="Gourav image" />
+                    <img className='img-height-home img-box img-box-white ' src="gourav.png" alt="Gourav image" />
                 </div>
             </div>
             {/* divider separator line  */}

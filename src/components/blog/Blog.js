@@ -6,7 +6,7 @@ const Blog = () => {
   const pinnedBlogs = blogsMetadata.filter(blog => blog.pin);
 
   return (
-    <div className="container mx-auto p-4">
+    <div id='blog' className="container mx-auto p-4">
       <p className='uppercase text-redFeature let-space-features items-center justify-center flex'>VISIT MY BLOG AND KEEP YOUR FEEDBACK
       </p>
       <h2 className='items-center justify-center text-navFontColor flex text-4xl font-bold mt-4 mb-6'>My Blog
