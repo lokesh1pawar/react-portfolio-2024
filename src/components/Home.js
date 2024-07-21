@@ -17,28 +17,28 @@ const Home = () => {
     {/* Nav Section  */}
     <Navbar />
 
-    {/* Home Section  */}
+  
     <WelcomeHome/>
 
-    {/* Features Section  */}
-    <Features/>
+   
+     <Features/>
 
-    {/* Resume Section  */}
-    <Resume/>
+   
+   {/* <Resume/> */}
 
-    {/* Testimonial Section  */}
+  
     <Testimonial/>
 
-    {/* Blog Section  */}
+   
     <Blog />
 
-    {/* Contact Section  */}
-    <Contacts/>
+   
+     <Contacts/>
 
-    {/* Footer Section  */}
+  
     <Footer/>
 
-    {/* Back to Top button */}
+   
     <BackToTop/>
  
   </div>
