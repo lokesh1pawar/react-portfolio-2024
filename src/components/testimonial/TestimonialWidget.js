@@ -33,7 +33,7 @@ export const TestimonialWidget = ({ reviews }) => {
                 </button>
                 <button 
                     onClick={rightShiftHandler}
-                    className='cursor-pointer text-navFontColor img-box hover:text-redForHoverNav ml-5 duration-300'
+                    className='cursor-pointer text-navFontColor hover:text-redForHoverNav ml-5 duration-300'
                     >
                     <FaArrowRight/>
                 </button>
