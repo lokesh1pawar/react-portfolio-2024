@@ -54,14 +54,14 @@ box-shadow: rgba(214, 212, 212, 0.03)
 }
 
 .divider-saprate{
-  width: 90%;
+  /* width: 90%; */
   height: 1px;
   background: rgb(0, 0, 0);
   margin: 65px;
 }
 
 .divider-saprate-footer{
-  width: 90%;
+  /* width: 90%; */
   height: 1px;
   background: rgb(0, 0, 0);
   margin: 25px;

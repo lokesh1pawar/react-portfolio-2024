@@ -90,7 +90,7 @@ const Features = () => {
             </div>
         </div>
             {/* divider separator line  */}
-            <div className='divider-saprate opacity-90'></div>
+            {/* <div className='divider-saprate opacity-90'></div> */}
        </>
     )
 }

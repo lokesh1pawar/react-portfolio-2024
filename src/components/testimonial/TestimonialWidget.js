@@ -18,7 +18,7 @@ export const TestimonialWidget = ({ reviews }) => {
 
     return (
         <div 
-            className='w-[85vw] md:w-[990px] bg-bgMain flex flex-col
+            className='w-[85vw]  bg-bgMain flex flex-col
             justify-center items-center mt-10 p-10 transition-all duration-700
             hover:shadow-xl rounded-md img-box font-custom1 font-custom2'>
             <div>
