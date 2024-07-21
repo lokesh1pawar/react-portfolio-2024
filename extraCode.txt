@@ -12,6 +12,25 @@
             Gaurav
           </ScrollLink> */}
 ---------------------------------------------
+
+{/* Tabs Section  */}
+      <Tabs className={`text-white mt-4 p-14`}>
+    <TabList className={`justify-center flex cursor-pointer text-navFontColor space-x-24 font-medium text-lg`}>
+      
+      <Tab className={` hover:text-redForHoverNav bg-bgMain duration-300 shadow-gray-900 shadow-md img-box-white w-[170px] p-4 text-center tracking-wider	flex rounded-sm`}> <LuGraduationCap className='text-2xl mr-2'/> Education</Tab>
+      {/* <Tab className={` hover:text-redForHoverNav bg-bgMain duration-300 shadow-gray-900 shadow-md img-box-white w-[170px] p-4 text-center tracking-wider flex rounded-sm`}> <GoBriefcase className='text-2xl mr-2'/> Experience</Tab> */}
+    </TabList>
+
+    
+
+    <TabPanel>
+      <h2>Any content 2</h2>
+    </TabPanel>
+  </Tabs>
+
+---------------------------------------------
+
+
 Footer code -->
 
  <div className='pb-[80px] flex'>
