@@ -48,11 +48,6 @@ box-shadow: rgba(214, 212, 212, 0.03)
 -7px -10px 20px 3px
 }
 
-.img-height-home{
-  height: 25rem;
-  width: 420px;
-}
-
 .divider-saprate{
   /* width: 90%; */
   height: 1px;
@@ -69,8 +64,8 @@ box-shadow: rgba(214, 212, 212, 0.03)
 }
 
 /* lg - 1024px  */
-@media (min-width: 430px) { 
-  .img-height-home{
-    /* margin-left: 43px; */
+@media (min-width: 393px) { 
+  .xyz{
+    /* height: 20rem; */
   }
  }

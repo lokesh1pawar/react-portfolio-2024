@@ -8,6 +8,9 @@ module.exports = {
       margin: {
         '50px': '50px',
       },
+      screens: {
+        // 'sm': '393px', // Custom breakpoint for 394px
+      },
       colors: {
         customColor: '#212428', // bg-color for whole site
         bgMain: '#212428', 

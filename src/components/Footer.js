@@ -11,7 +11,7 @@ const Footer = () => {
     {/* divider separator line  */}
     <div className='divider-saprate-footer opacity-90 mt-14'></div>
 
-    <div className='relative p-[20px] justify-center flex'>
+    <div className='relative p-[20px] justify-center flex '>
     <p className='text-navHoverUl text-lg'>© 2024. All rights reserved by Machine Learning Hub</p>
      </div>
     </div>

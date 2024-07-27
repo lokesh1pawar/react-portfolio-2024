@@ -34,7 +34,7 @@ const Navbar = () => {
           <img className="h-16" src="logo.png" alt="Logo" />
         </div>
         {/* Hamburger Menu Button for mobile */}
-        <div className="block lg:hidden">
+        {/* <div className="block lg:hidden">
           <button
             onClick={toggleMobileMenu}
             className="text-gray-400 hover:text-white focus:outline-none"
@@ -59,7 +59,35 @@ const Navbar = () => {
               )}
             </svg>
           </button>
-        </div>
+        </div> */}
+
+<div className="block lg:hidden">
+      <button
+        onClick={toggleMobileMenu}
+        className="text-gray-400 hover:text-white focus:outline-none"
+      >
+        <svg
+          className="h-6 w-6 fill-current"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          {isMobileMenuOpen ? (
+            <path
+              fillRule="evenodd"
+              clipRule="evenodd"
+              d="M18.364 5.636a1 1 0 00-1.414 0L12 10.586 7.05 5.636a1 1 0 00-1.414 1.414L10.586 12l-4.95 4.95a1 1 0 101.414 1.414L12 13.414l4.95 4.95a1 1 0 101.414-1.414L13.414 12l4.95-4.95a1 1 0 000-1.414z"
+            />
+          ) : (
+            <path
+              fillRule="evenodd"
+              clipRule="evenodd"
+              d="M3 5h18c.552 0 1 .448 1 1s-.448 1-1 1H3c-.552 0-1-.448-1-1s.448-1 1-1zm0 4h18c.552 0 1 .448 1 1s-.448 1-1 1H3c-.552 0-1-.448-1-1s.448-1 1-1zm0 4h18c.552 0 1 .448 1 1s-.448 1-1 1H3c-.552 0-1-.448-1-1s.448-1 1-1zm0 4h18c.552 0 1 .448 1 1s-.448 1-1 1H3c-.552 0-1-.448-1-1s.448-1 1-1z"
+            />
+          )}
+        </svg>
+      </button>
+    </div>
+    
         {/* Desktop Menu */}
         <ul className="hidden lg:flex lg:space-x-8 text-gray-400 uppercase p-4 mr-10 cursor-pointer">
           <li className="text-sm font-custom1 font-custom2 text-center hover:text-red-500"> {/* Apply hover:text-red-500 class here */}

@@ -40,36 +40,36 @@ const WelcomeHome = () => {
             {/* Content Box */}
             <div className='w-full p-8 lg:p-16 flex flex-col lg:flex-row'>
 
-                <div className="lg:w-1/2 lg:pr-10">
-                    <p className="text-navFontColor font-custom1 font-custom2 let-space text-left font-14 uppercase">
+                <div className="lg:w-[65%] lg:pr-10">
+                    <p className="text-navFontColor font-custom1 font-custom2 let-space  text-left font-14 uppercase mt-14">
                         Welcome to my world
                     </p>
-                    <h1 className='text-white text-5xl lg:text-7xl font-bold font-custom1 font-custom2 mt-4 lg:mt-[92px] text-left'>
+                    <h1 className='text-white mt-3 text-2xl lg:text-5xl font-bold font-custom1 font-custom2 lg:mt-6 md:mt-6 sm:mt-6 text-left sm:text-3xl'>
                         Hi, I’m <span className='text-redForName'>Gourav Singh Bais</span>
                     </h1>
-                    <div className="mt-4 text-3xl lg:text-5xl font-custom1 font-custom2 text-left">
+                    <div className="mt-4 lg:text-5xl md:text-4xl text-xl font-custom1 font-custom2 text-left">
                         <span className="text-white font-bold">a </span>
                         <span className="text-white font-bold ">{currentText}</span>
                     </div>
                     <div className='mt-6 lg:mt-10 opacity-90 font-custom1 font-custom2 text-left'>
                         <p className='text-navFontColor tracking-wide leading-7'>
                             Experienced data scientist skilled in transforming data into actionable insights to
-                            <br className='lg:hidden' /> solve complex business challenges. I have published more than 125 technical articles
-                            <br className='lg:hidden' /> and created content for organisations like O’reilly,
+                         solve complex business challenges. I have published more than 125 technical articles
+                                 and created content for organisations like O’reilly,
                             Neptune, Comet, HitSubscribe,
-                            <br className='lg:hidden' /> InfluxDB, Domino Data Lab, etc. I provide software services for building ML solution.
-                            <br className='lg:hidden' /> Also, working as an evaluator in GreatLearning.
+                                    InfluxDB, Domino Data Lab, etc. I provide software services for building ML solution.
+                                Also, working as an evaluator in GreatLearning.
                         </p>
                     </div>
                 </div>
                 {/* Image Box */}
-                <div className="lg:w-1/2 flex justify-center items-flex-start mt-6 lg:mt-0 align-flex-start">
-                    <img className='img-height-home img-box img-box-white' src="gourav.png" alt="Gourav image" />
+                <div className="lg:w-[35%] flex justify-center items-flex-start mt-6 md:mt-12 lg:mt-0 align-flex-start">
+                    <img className='h-[22rem] w-[350px] sm:h-[20rem] img-box img-box-white xyz' src="gourav.png" alt="Gourav image" />
                 </div>
 
             </div>
             {/* Find with me Social Icons */}
-            <div className="flex justify-center lg:justify-start mt-6">
+            <div className="flex justify-center lg:justify-start mr-24 md:mr-28">
                 <SocialIcons />
             </div>
 

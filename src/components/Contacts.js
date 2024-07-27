@@ -35,7 +35,7 @@ const Contacts = () => {
                         {/* Social Icons  */}
                         <div>
                             <p className='uppercase text-navFontColor let-space-social opacity-80 mt-10'>Find with me</p>
-                            <div className='flex space-x-6 mt-6 w-full justify-center'>
+                            <div className='flex space-x-6 mt-6 w-full justify-center md:justify-start xs'>
                                 <div className='img-box-white hover:text-slate-400 hover:shadow-lg hover:-translate-y-2 ease-in-out transform transition duration-500'>
                                     <a href="https://www.linkedin.com/in/gourav-singh-bais/" target="_blank" rel="noopener noreferrer">
                                         <FiLinkedin className="text-4xl sm:text-5xl text-navFontColor border border-navFontColor box-full p-2 shadow-md hover:text-redForHoverNav ease-in-out duration-300" />
