@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gourav-bais-portfolio-2024/static/css/main.f2d4bae1.css",
+    "main.js": "/gourav-bais-portfolio-2024/static/js/main.459e2120.js",
+    "static/js/976.546a3c6d.chunk.js": "/gourav-bais-portfolio-2024/static/js/976.546a3c6d.chunk.js",
+    "static/js/893.0e562309.chunk.js": "/gourav-bais-portfolio-2024/static/js/893.0e562309.chunk.js",
+    "static/js/453.7130ef0b.chunk.js": "/gourav-bais-portfolio-2024/static/js/453.7130ef0b.chunk.js",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/gourav-bais-portfolio-2024/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/Poppins-Regular.ttf": "/gourav-bais-portfolio-2024/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "index.html": "/gourav-bais-portfolio-2024/index.html",
+    "static/media/example.md": "/gourav-bais-portfolio-2024/static/media/example.854c9fffa8feeca46a3d.md",
+    "main.f2d4bae1.css.map": "/gourav-bais-portfolio-2024/static/css/main.f2d4bae1.css.map",
+    "main.459e2120.js.map": "/gourav-bais-portfolio-2024/static/js/main.459e2120.js.map",
+    "976.546a3c6d.chunk.js.map": "/gourav-bais-portfolio-2024/static/js/976.546a3c6d.chunk.js.map",
+    "893.0e562309.chunk.js.map": "/gourav-bais-portfolio-2024/static/js/893.0e562309.chunk.js.map",
+    "453.7130ef0b.chunk.js.map": "/gourav-bais-portfolio-2024/static/js/453.7130ef0b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2d4bae1.css",
+    "static/js/main.459e2120.js"
+  ]
+}
