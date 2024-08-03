@@ -63,8 +63,8 @@ const WelcomeHome = () => {
                     </div>
                 </div>
                 {/* Image Box */}
-                <div className="lg:w-[35%] flex justify-center items-flex-start mt-6 md:mt-12 lg:mt-0 align-flex-start">
-                    <img className='h-[22rem] w-[350px] sm:h-[20rem] img-box img-box-white xyz' src="gourav.png" alt="Gourav image" />
+                <div className="lg:w-[35%] flex justify-center items-flex-start mt-6 md:mt-12 lg:mt-12 align-flex-start">
+                    <img className='h-[22rem] w-[350px] sm:h-[20rem] img-box img-box-white' src="gourav.png" alt="Gourav image" />
                 </div>
 
             </div>

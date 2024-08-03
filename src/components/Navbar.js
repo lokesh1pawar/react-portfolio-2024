@@ -24,14 +24,14 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`bg-bgMain p-3.5 fixed w-full z-10 transition duration-300 ease-in-out 
+      className={`bg-bgMain p-3.5 fixed w-full z-10 transition duration-300 ease-in-out z-50 
         ${isSticky ? 'top-0' : 'top-[0px]'}
         ${hasScrolled ? 'border-b border-gray-800 drop-shadow-2xl backdrop-blur-md bg-opacity-90' : ''}
       `}
     >
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-2xl">
-          <img className="h-16" src="logo.png" alt="Logo" />
+          <img className="h-16" src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" />
         </div>
         {/* Hamburger Menu Button for mobile */}
         {/* <div className="block lg:hidden">
@@ -87,7 +87,7 @@ const Navbar = () => {
         </svg>
       </button>
     </div>
-    
+
         {/* Desktop Menu */}
         <ul className="hidden lg:flex lg:space-x-8 text-gray-400 uppercase p-4 mr-10 cursor-pointer">
           <li className="text-sm font-custom1 font-custom2 text-center hover:text-red-500"> {/* Apply hover:text-red-500 class here */}

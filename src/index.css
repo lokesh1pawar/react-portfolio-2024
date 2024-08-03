@@ -63,9 +63,3 @@ box-shadow: rgba(214, 212, 212, 0.03)
   margin-left: 70px;
 }
 
-/* lg - 1024px  */
-@media (min-width: 393px) { 
-  .xyz{
-    /* height: 20rem; */
-  }
- }

@@ -2,9 +2,6 @@ import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import './resume.css';
-// import { LuGraduationCap } from "react-icons/lu";
-// import { GoBriefcase } from "react-icons/go";
-
 
 const Resume = () => {
   return (

@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import blogsMetadata from '../../blogs/blogs.json';
 import { useParams } from 'react-router-dom';
+import Navbar from '../Navbar';
 
 const BlogPost = ({ match }) => {
   const [content, setContent] = useState('');
@@ -26,14 +27,26 @@ const BlogPost = ({ match }) => {
   }, [blog]);
 
   if (!blog) {
-    return <div>Blog not found</div>;
+    return <div>Oops! Blog not found</div>;
   }
 
   return (
-    <div className="prose lg:prose-xl max-w-none mx-auto p-4">
-      <h1>{blog.title}</h1>
-      <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
-    </div>
+    <>
+    <Navbar/>
+    <div className="prose lg:prose-xl mx-auto p-28 bg-bgMain text-navFontColor font-custom1 font-custom2 mt-2">
+        {blog.image && (
+          <div className="w-full overflow-hidden mb-8">
+            <img
+              className="w-full h-auto object-cover rounded-md"
+              src={blog.image}
+              alt={blog.title}
+            />
+          </div>
+        )}
+        <h1 className="text-3xl lg:text-5xl font-bold mb-6 text-white justify-center flex lg:mt-9 lg:mb-9">{blog.title}</h1>
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
+      </div>
+    </>
   );
 };
 

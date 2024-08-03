@@ -8,6 +8,7 @@ import Footer from './Footer';
 import BackToTop from './BackToTop';
 import Blog from './blog/Blog';
 import Testimonial from './Testimonial';
+import EmailForm from './EmailForm';
 
 const Home = () => {
   return (
@@ -35,6 +36,7 @@ const Home = () => {
    
      <Contacts/>
 
+{/* <EmailForm/> */}
   
     <Footer/>
 
