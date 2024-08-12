@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/gourav-bais-portfolio-2024/static/css/main.b8df14c9.css",
-    "main.js": "/gourav-bais-portfolio-2024/static/js/main.a6d2076f.js",
+    "main.js": "/gourav-bais-portfolio-2024/static/js/main.cbae7cc7.js",
     "static/js/976.546a3c6d.chunk.js": "/gourav-bais-portfolio-2024/static/js/976.546a3c6d.chunk.js",
     "static/js/893.0e562309.chunk.js": "/gourav-bais-portfolio-2024/static/js/893.0e562309.chunk.js",
     "static/js/453.7130ef0b.chunk.js": "/gourav-bais-portfolio-2024/static/js/453.7130ef0b.chunk.js",
     "static/media/Montserrat-VariableFont_wght.ttf": "/gourav-bais-portfolio-2024/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
     "static/media/Poppins-Regular.ttf": "/gourav-bais-portfolio-2024/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Build Your Own Text-to-Speech System with Python and Comet ML.md": "/gourav-bais-portfolio-2024/static/media/Build Your Own Text-to-Speech System with Python and Comet ML.dbcd7fb523e6d866332a.md",
     "index.html": "/gourav-bais-portfolio-2024/index.html",
     "static/media/example.md": "/gourav-bais-portfolio-2024/static/media/example.b64182577987f4a3726a.md",
     "main.b8df14c9.css.map": "/gourav-bais-portfolio-2024/static/css/main.b8df14c9.css.map",
-    "main.a6d2076f.js.map": "/gourav-bais-portfolio-2024/static/js/main.a6d2076f.js.map",
+    "main.cbae7cc7.js.map": "/gourav-bais-portfolio-2024/static/js/main.cbae7cc7.js.map",
     "976.546a3c6d.chunk.js.map": "/gourav-bais-portfolio-2024/static/js/976.546a3c6d.chunk.js.map",
     "893.0e562309.chunk.js.map": "/gourav-bais-portfolio-2024/static/js/893.0e562309.chunk.js.map",
     "453.7130ef0b.chunk.js.map": "/gourav-bais-portfolio-2024/static/js/453.7130ef0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8df14c9.css",
-    "static/js/main.a6d2076f.js"
+    "static/js/main.cbae7cc7.js"
   ]
 }
