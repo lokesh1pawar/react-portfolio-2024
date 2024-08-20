@@ -21,14 +21,14 @@
         "description": "This is an example blog post.",
         "image": "../blog_img/road-sign-direction-perforated-paper-arrow-340x250.jpg",
         "fileName": "example.md",
-        "pin": true
+        "pin": false
       }, {
         "id": "example4",
         "title": "Example Blog Post",
         "description": "This is an example blog post.",
         "image": "/path/to/image.jpg",
-        "fileName": "example.md",
-        "pin": false
+        "fileName": "Build Your Own Text-to-Speech System with Python and Comet ML.md",
+        "pin": true
       }
     
   ]

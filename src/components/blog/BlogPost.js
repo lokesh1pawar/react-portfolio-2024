@@ -4,18 +4,22 @@ import remarkGfm from 'remark-gfm';
 import blogsMetadata from '../../blogs/blogs.json';
 import { useParams } from 'react-router-dom';
 import Navbar from '../Navbar';
+import rehypeHighlight from 'rehype-highlight';
+import rehypeRaw from 'rehype-raw'
+
 
 const BlogPost = ({ match }) => {
   const [content, setContent] = useState('');
   const { id } = useParams();
   const blog = blogsMetadata.find(blog => blog.id === id);
   useEffect(() => {
-    
+
     if (blog) {
       const fetchBlogContent = async () => {
         try {
           const response = await fetch(require(`../../blogs/${blog.fileName}`));
           const text = await response.text();
+          console.log(content)
           setContent(text);
         } catch (error) {
           console.error('Error fetching the blog content:', error);
@@ -32,20 +36,21 @@ const BlogPost = ({ match }) => {
 
   return (
     <>
-    <Navbar/>
-    <div className="prose lg:prose-xl mx-auto p-28 bg-bgMain text-navFontColor font-custom1 font-custom2 mt-2">
-        {blog.image && (
-          <div className="w-full overflow-hidden mb-8">
-            <img
-              className="w-full h-auto object-cover rounded-md"
-              src={blog.image}
-              alt={blog.title}
-            />
-          </div>
-        )}
-        <h1 className="text-3xl lg:text-5xl font-bold mb-6 text-white justify-center flex lg:mt-9 lg:mb-9">{blog.title}</h1>
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
-      </div>
+      <Navbar postPage={true} />
+
+      {/* <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown> */}
+      {/* <ReactMarkdown rehypePlugins={[rehypeHighlight]}>{content}</ReactMarkdown>, */}
+      <article className='m-[8rem] mx-auto prose prose-white
+       lg:prose-xl prose-h1:text-white prose-h2:text-white prose-h3:text-white
+        prose-h4:text-white prose-h5:text-white prose-h6:text-white prose-a:text-white
+         hover:prose-a:text-redForHoverNav hover:prose-a:transition-colors hover:prose-a:duration-300 hover:prose-a:ease-in-out' >
+        <ReactMarkdown
+          remarkPlugins={[[remarkGfm,]]}
+          rehypePlugins={[rehypeRaw]}
+          children={content}></ReactMarkdown>
+      </article>
+
+
     </>
   );
 };

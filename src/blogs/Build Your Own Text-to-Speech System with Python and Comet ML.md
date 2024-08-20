@@ -1,7 +1,7 @@
 # Build Your Own Text-to-Speech System with Python and Comet ML
 A hands-on guide to creating your text-to-speech system
 
-![Featured Image](https://i.imgur.com/AKFkCdd.jpeg)
+![Featured Image](https://imgur.com/AKFkCdd.png)
 
 Imagine giving a text a voice and transforming words into a natural speech. In the realm of [Natural Language Processing (NLP)](https://medium.com/r/?url=https%3A%2F%2Fwww.comet.com%2Fsite%2Fblog%2Fnatural-language-processing-with-r%2F), the evolution of technology has paved the way for innovative solutions, and one such marvel is Text-to-Speech (TTS) technology. This cutting-edge technology has various applications ranging from assistive devices to interactive storytelling.
 

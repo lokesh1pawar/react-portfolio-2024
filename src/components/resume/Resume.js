@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+// import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import './resume.css';
 
@@ -14,7 +14,7 @@ const Resume = () => {
       <a
         href="Gourav_Singh_Bais_Resume_2024.pdf"
         download
-        className=" hover:text-redForHoverNav bg-white duration-300 shadow-gray-900 shadow-md img-box-white w-[230px] p-4 text-center tracking-wider rounded-lg font-medium text-lg hover:-translate-y-2 "
+        className=" hover:text-redForHoverNav bg-white duration-300 shadow-gray-900 shadow-md text-black img-box-white w-[230px] p-4 text-center tracking-wider rounded-lg font-medium text-lg hover:-translate-y-2 "
       >
         Download Resume
       </a>
